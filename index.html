@@ -23,47 +23,50 @@
 </head>
 <body>
   <div class="sect01">
-    <div class="container">
+    <div class="containerr">
       <div class="header">
-        <ul class="nav">
+        <ul class="nav1">
           <li class="navbar">
-            <span class="material-icons" style="font-family: Roboto; letter-spacing: 3px; font-weight: bold; font-size: 20px;">
+            <span class="material-icons" style="font-family: Roboto; letter-spacing: 3px; font-weight: bold; font-size: 26px;">
               Jasson RIN
             </span>
           </li>
         </ul>
         <ul class="nav">
           <li class="navbar">
-            <span class="material-icons">
+            <span class="material-icons" style="font-size: 30px;">
               school
             </span>
             <a href="#myEd">ABOUT</a>
           </li>
           <li class="navbar">
-            <span class="material-icons">
+            <span class="material-icons" style="font-size: 30px;">
               description
             </span>
             <a href="https://docs.google.com/document/d/1G24KbYgoiOelzUn1YupPxp8zp4vFK10zdq_bQcRICLE/edit">RESUME</a>
           </li>
           <li class="navbar">
-            <span class="material-icons">
+            <span class="material-icons" style="font-size: 30px;">
               code
             </span>
             <a href="#mySkills">SKILLS</a>
           </li>
           <li class="navbar">
-            <span class="material-icons">
+            <span class="material-icons" style="font-size: 30px;">
               folder
             </span>
             <a href="#projects">PORTFOLIO</a>
           </li>
           <li class="navbar">
-            <span class="material-icons">
+            <span class="material-icons" style="font-size: 30px;">
               email
             </span>
             <a href="#contact">CONTACT</a>
           </li>
         </ul>
+        <!-- <div class="hamburger">
+          <img src="./images/menu.png" alt="">
+        </div> -->
       </div>
       <div class="hl"></div>
 
@@ -85,7 +88,7 @@
             <span style="--i:12">L</span>
           </h2>
           <a href="#skill" class="primary-btn">SEE MORE</a>
-          <ul style="display: flex; justify-content: space-around; list-style-type: none; max-width: 16%; margin-top: 8%; margin-left: 40px;">
+          <ul class="indicator-container">
             <li class="indicator active"></li>
             <li class="indicator"></li>
             <li class="indicator"></li>
@@ -106,7 +109,7 @@
             <span style="--i:10">S</span>
           </h2>
           <a href="#projects" class="primary-btn">SEE MORE</a>
-          <ul style="display: flex; justify-content: space-around; list-style-type: none; max-width: 16%; margin-top:8%; margin-left: 40px;">
+          <ul class="indicator-container">
             <li class="indicator"></li>
             <li class="indicator active"></li>
             <li class="indicator"></li>
@@ -128,7 +131,7 @@
             <span style="--i:11">S</span>
           </h2>
           <a href="#interest" class="primary-btn">SEE MORE</a>
-          <ul style="display: flex; justify-content: space-around; list-style-type: none; max-width: 16%; margin-top: 8%; margin-left: 40px;">
+          <ul class="indicator-container">
             <li class="indicator"></li>
             <li class="indicator"></li>
             <li class="indicator active"></li>
@@ -139,7 +142,7 @@
   </div>
 
   <div class="sect2" id="projects">
-    <div class="container">
+    <div class="containerr">
       <div class="sect2-title">
         <h1 class="sect2-title1">My </h1>
         <h1 class="sect2-title2">Projects
@@ -147,7 +150,153 @@
         </h1>
       </div>
 
-      <div class="project">
+      <!-- DAY LOGGER -->
+      <div class="project" data-aos="fade-up">
+        <div class="project-pic">
+          <!-- Slideshow container -->
+          <div class="slideshow-container2">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides2 fade2">
+              <img src="./images/Daylogger/Daylogger1.png" style="width:100%">
+            </div>
+
+            <div class="mySlides2 fade2">
+              <img src="/images/Daylogger/Daylogger2.png" style="width:100%">
+            </div>
+
+            <div class="mySlides2 fade2">
+              <img src="/images/Daylogger/Daylogger3.png" style="width:100%">
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides2(1)">&#10095;</a>
+          </div>
+          <br>
+        </div>
+        <div class="project-des">
+          <h3 class="project-des-title">Day Logger</h3>
+          <ul class="tech-stack-list">
+              <p class="text-grey"><b>Made with: </b></p>
+              <li><img class="used-tech" src="./images/react.png" alt=""></li>
+              <li><img class="used-tech" src="./images/nodejs.png" alt=""></li>
+              <li><img class="used-tech" src="./images/express2.png" alt=""></li>
+              <li><img class="used-tech" src="./images/mongodb.png" alt=""></li>
+            </ul>
+          <p class="project-des-des">
+            An app allows users to set up a series of questions (similar to Google Forms) 
+            that they can then log data for those questions over multiple days, and a basic 
+            profile and login/registration page. There is also an Admin account feature that 
+            allows whoever logs into this county to be able to see some basic statistics on 
+            all the existing users, and delete any users account.
+          </p>
+        </div>
+      </div>
+
+      <!-- ASSIGN ME -->
+      <div class="project" data-aos="fade-up">
+        <div class="project-pic">
+          <!-- Slideshow container -->
+          <div class="slideshow-container3">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides3 fade2">
+              <img src="./images/AssignME/AssignME1.png" style="width:100%">
+            </div>
+
+            <div class="mySlides3 fade2">
+              <img src="/images/AssignME/AssignME3.png" style="width:100%">
+            </div>
+
+            <div class="mySlides3 fade2">
+              <img src="/images/AssignME/AssignME4.png" style="width:100%">
+            </div>
+
+            <div class="mySlides3 fade2">
+              <img src="/images/AssignME/AssignME5.png" style="width:100%">
+            </div>
+
+            <div class="mySlides3 fade2">
+              <img src="/images/AssignME/AssignME6.png" style="width:100%">
+            </div>
+
+            <div class="mySlides3 fade2">
+              <img src="/images/AssignME/AssignME2.png" style="width:100%">
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides3(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides3(1)">&#10095;</a>
+          </div>
+          <br>
+        </div>
+        <div class="project-des">
+          <h3 class="project-des-title">Assign Me</h3>
+          <ul class="tech-stack-list">
+              <p class="text-grey"><b>Made with: </b></p>
+              <li><img class="used-tech" src="./images/react.png" alt=""></li>
+              <li><img class="used-tech" src="./images/python.png" alt=""></li>
+              <li><img class="used-tech" src="./images/fastapi.png" alt=""></li>
+              <li><img class="used-tech" src="./images/mongodb.png" alt=""></li>
+            </ul>
+          <p class="project-des-des">
+            An app consists of three main features, such as task management, schedule maker, 
+            and note taking app aiming to increase productivity for users with ease. With this 
+            project, I built a fully featured API that includes authentication, CRUD operations, 
+            schema validation, serialization/deserialization, integrating MongoDB with Python and 
+            React, and more.
+          </p>
+        </div>
+      </div>
+
+      <!-- DDOS -->
+      <div class="project" data-aos="fade-up">
+        <div class="project-pic">
+          <!-- Slideshow container -->
+          <div class="slideshow-container4">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides4 fade2">
+              <img src="./images/DDOS/DDOS1.png" style="width:100%">
+            </div>
+
+            <div class="mySlides4 fade2">
+              <img src="/images/DDOS/DDOS2.png" style="width:100%">
+            </div>
+
+            <div class="mySlides4 fade2">
+              <img src="/images/DDOS/DDOS3.png" style="width:100%">
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides4(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides4(1)">&#10095;</a>
+          </div>
+          <br>
+        </div>
+        <div class="project-des">
+          <h3 class="project-des-title">DDOS Detection in SDN using Machine Learning Analysis</h3>
+          <ul class="tech-stack-list">
+              <p class="text-grey"><b>Made with: </b></p>
+              <li><img class="used-tech" src="./images/python.png" alt=""></li>
+              <li><img class="used-tech" src="./images/DDOS/ubuntu.png" alt=""></li>
+              <li><img class="used-tech" src="./images/DDOS/openflow-removebg-preview.png" alt=""></li>
+              <li><img class="used-tech" src="./images/DDOS/ryuController-removebg-preview.png" alt=""></li>
+            </ul>
+          <p class="project-des-des">
+            It has been known that Software Defined Networking (SDN) is the future of networking, 
+            allowing engineers to reroute networks on the fly. However, it can become vulnerable to 
+            Distributed Denial of Service (DDoS). Therefore, I did an analysis and wrote a research paper 
+            later on for my Computer Network course final project, which uses software such as OpenFlow protocol, 
+            Mininet, Ryu controller, and machine learning models including support vector machine (SVM) and decision 
+            tree in order detect DDOS attacks in SDN.
+          </p>
+        </div>
+      </div>
+
+      <!-- IMAGE ANNOTATION -->
+      <div class="project" data-aos="fade-up">
         <div class="project-pic">
           <img src="./images/imageAnn.png" alt="">
         </div>
@@ -170,7 +319,8 @@
         </div>
       </div>
   
-      <div class="project">
+      <!-- PAC MAN -->
+      <div class="project" data-aos="fade-up">
         <div class="project-pic">
           <img src="./images/Pacman.png" alt="">
         </div>
@@ -190,7 +340,8 @@
         </div>
       </div>
 
-      <div class="project">
+      <!-- SNAKE GAME -->
+      <div class="project" data-aos="fade-up">
         <div class="project-pic">
           <img src="./images/Snake.png" alt="">
         </div>
@@ -209,14 +360,16 @@
         </div>
       </div>
   
-      <a href="https://github.com/Ratanak-Rin-Sbu?tab=repositories"
-        class="primary-btn"
-        style="color: black; margin-left: 40%; margin-bottom: 25px;">VIEW ALL PROJECTS
-      </a>
+      <div class="button-container">
+        <a href="https://github.com/Ratanak-Rin-Sbu?tab=repositories"
+          class="primary-btn"
+          style="color: black; margin: 0 auto; display: inline-block; text-align: center;">VIEW ALL PROJECTS
+        </a>
+      </div>
     </div>
   </div>
   <div class="sect sect3" id="mySkills">
-    <div class="container">
+    <div class="containerr">
       <div class="sect2-title">
         <h1 class="sect2-title1" style="color: whitesmoke;">My </h1>
         <h1 class="sect2-title2">Skills
@@ -313,7 +466,7 @@
   </div>
 
   <div class="sect4" id="interest">
-    <div class="container">
+    <div class="containerr">
       <div class="sect2-title">
         <h1 class="sect2-title1" style="color: whitesmoke;">My </h1>
         <h1 class="sect2-title2">Interest & Future Skills
@@ -322,7 +475,7 @@
       </div>
       <div class="content-row">
         
-          <div class="interest-item" style="margin-right: 20px; ">
+          <div class="interest-item">
             <div class="services__item">
               <div class="services__item__icon">
                 <img src="./images/oop.png" alt="">
@@ -338,7 +491,7 @@
             </div>
           </div>
 
-          <div class="interest-item" style="margin-right: 20px; ">
+          <div class="interest-item" >
             <div class="services__item">
               <div class="services__item__icon">
                 <img src="./images/iot.png" alt="">
@@ -370,9 +523,9 @@
             </div>
           </div>
 
-          <div class="line-break"></div>
+          <!-- <div class="line-break"></div> -->
 
-          <div class="interest-item" style="margin-right: 20px;">
+          <div class="interest-item">
             <div class="services__item">
               <div class="services__item__icon">
                 <img src="./images/mobile.png" alt="">
@@ -388,7 +541,7 @@
             </div>
           </div>
 
-          <div class="interest-item" style="margin-right: 20px; ">
+          <div class="interest-item">
             <div class="services__item">
               <div class="services__item__icon">
                 <img src="./images/fintech.png" alt="">
@@ -423,7 +576,7 @@
     </div>
   </div>
   <div class="sect5" id="myEd"> 
-    <div class="container">
+    <div class="containerr">
       <div class="sect2-title">
         <h1 class="sect2-title1">About </h1>
         <h1 class="sect2-title3">Me
@@ -432,7 +585,7 @@
       </div>
 
       <!-- SCHOOL -->
-      <div class="school">
+      <div class="school" data-aos="fade-up">
         <div class="school-col">
           <div class="school-logo">
             <img src="./images/sbu.png" alt="">
@@ -455,12 +608,12 @@
       </div>
 
       <!-- WORK EXPERIENCE -->
-      <div class="sect2-mini-title-exp">
+      <div class="sect2-mini-title-exp" data-aos="fade-up">
         <h1 class="sect2-mini-title1">Work </h1>
         <h1 class="sect2-mini-title2">Experience</h1>
       </div>
 
-      <div class="exp">
+      <div class="exp" data-aos="fade-up">
         <!-- CAIMI -->
         <div class="work-card">
           <div class="company-title">
@@ -560,24 +713,30 @@
       </div>
 
       <!-- CONTACT -->
-      <div class="sect2-mini-title-contact">
+      <div class="sect2-mini-title-contact" data-aos="fade-up">
         <h1 class="sect2-mini-title1">Contact </h1>
         <h1 class="sect2-mini-title2">Me</h1>
       </div>
 
-      <div class="contact" id="contact">
+      <div class="contact" id="contact" data-aos="fade-up">
         <div class="card">
-          <img src="./images/email.png" alt="">
+          <div class="card-img-container">
+            <img src="./images/email.png" alt="">
+          </div>
           <h3>Email</h3>
-          <a href="mailto: ratanak.rin@stonybrook.edu" class="text-blue" target="_blank">ratanak.rin@stonybrook.edu</a>
+          <a href="mailto: ratanak.rin@stonybrook.edu" class="text-blue" target="_blank">Ratanak-Rin</a>
         </div>
         <div class="card">
-          <img src="./images/github.png" alt="">
+          <div class="card-img-container">
+            <img src="./images/github.png" alt="">
+          </div>
           <h3>GitHub</h3>
           <a href="https://github.com/Ratanak-Rin-Sbu" class="text-blue" target="_blank">Ratanak-Rin-Sbu</a>
         </div>
         <div class="card">
-          <img src="./images/linkedin.png" alt="">
+          <div class="card-img-container">
+            <img src="./images/linkedin.png" alt="">
+          </div>
           <h3>LinkedIn</h3>
           <a href="https://www.linkedin.com/in/ratanak-rin-5674b0227/" class="text-blue" target="_blank">Ratanak RIN</a>
         </div>
