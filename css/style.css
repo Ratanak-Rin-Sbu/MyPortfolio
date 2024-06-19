@@ -368,6 +368,10 @@ ul {
 .project-pic {
   /* margin: auto 0; */
   width: 40%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 .project-pic img {
   width: 100%;
@@ -733,7 +737,7 @@ ul {
 
 /* IMAGE SLIDER */
 /* Slideshow container */
-.slideshow-container2, .slideshow-container3, .slideshow-container4 {
+.slideshow-container2, .slideshow-container3, .slideshow-container4, .slideshow-container5, .slideshow-container6 {
   max-width: 1000px;
   position: relative;
   margin: auto;
@@ -741,7 +745,7 @@ ul {
 }
 
 /* Hide the images by default */
-.mySlides2, .mySlides3, .mySlides4 {
+.mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6 {
   display: none;
   /* height: 100%; */
 }

@@ -153,3 +153,53 @@ function showSlides4(n) {
   }
   slides4[slideIndex4-1].style.display = "block";
 }
+
+// MAPBOOK
+let slideIndex5 = 1;
+showSlides5(slideIndex5);
+
+// Next/previous controls
+function plusSlides5(n) {
+  showSlides5(slideIndex5 += n);
+}
+
+// Thumbnail image controls
+function currentSlide5(n) {
+  showSlides5(slideIndex5 = n);
+}
+
+function showSlides5(n) {
+  let i;
+  let slides5 = document.getElementsByClassName("mySlides5");
+  if (n > slides5.length) {slideIndex5 = 1}
+  if (n < 1) {slideIndex5 = slides5.length}
+  for (i = 0; i < slides5.length; i++) {
+    slides5[i].style.display = "none";
+  }
+  slides5[slideIndex5-1].style.display = "block";
+}
+
+// VITAL
+let slideIndex6 = 1;
+showSlides6(slideIndex6);
+
+// Next/previous controls
+function plusSlides6(n) {
+  showSlides6(slideIndex6 += n);
+}
+
+// Thumbnail image controls
+function currentSlide6(n) {
+  showSlides6(slideIndex6 = n);
+}
+
+function showSlides6(n) {
+  let i;
+  let slides6 = document.getElementsByClassName("mySlides6");
+  if (n > slides6.length) {slideIndex6 = 1}
+  if (n < 1) {slideIndex6 = slides6.length}
+  for (i = 0; i < slides6.length; i++) {
+    slides6[i].style.display = "none";
+  }
+  slides6[slideIndex6-1].style.display = "block";
+}
