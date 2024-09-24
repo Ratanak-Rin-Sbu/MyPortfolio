@@ -423,6 +423,18 @@ ul {
   background-position: 5px 5px;
   background-repeat: no-repeat;
 }
+.project-live {
+  border: 1px solid lightblue;
+  background: whitesmoke url(../images/live.png);
+  border-radius: 5px;
+  width: 85px;
+  height: 38px;
+  padding: 2px 5px 5px 30px;
+  display:inline-block;
+  text-align: center;
+  background-position: 5px 5px;
+  background-repeat: no-repeat;
+}
 .project-doc {
   border: 1px solid lightblue;
   background: whitesmoke url(../images/google-docs.png);
@@ -436,6 +448,12 @@ ul {
   background-repeat: no-repeat;
 }
 .project-link:hover {
+  border: 2px solid navy
+}
+.project-live:hover {
+  border: 2px solid navy
+}
+.project-doc:hover {
   border: 2px solid navy
 }
 .sect2 .button-container {
@@ -750,7 +768,7 @@ ul {
 
 /* IMAGE SLIDER */
 /* Slideshow container */
-.slideshow-container2, .slideshow-container3, .slideshow-container4, .slideshow-container5, .slideshow-container6 {
+.slideshow-container2, .slideshow-container3, .slideshow-container4, .slideshow-container5, .slideshow-container6, .slideshow-container7 {
   max-width: 1000px;
   position: relative;
   margin: auto;
@@ -758,7 +776,7 @@ ul {
 }
 
 /* Hide the images by default */
-.mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6 {
+.mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6, .myslides7 {
   display: none;
   /* height: 100%; */
 }

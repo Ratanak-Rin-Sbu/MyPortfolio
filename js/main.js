@@ -203,3 +203,28 @@ function showSlides6(n) {
   }
   slides6[slideIndex6-1].style.display = "block";
 }
+
+// DOSETY
+let slideIndex7 = 1;
+showSlides7(slideIndex7);
+
+// Next/previous controls
+function plusSlides7(n) {
+  showSlides7(slideIndex7 += n);
+}
+
+// Thumbnail image controls
+function currentSlide7(n) {
+  showSlides7(slideIndex7 = n);
+}
+
+function showSlides7(n) {
+  let i;
+  let slides7 = document.getElementsByClassName("mySlides7");
+  if (n > slides7.length) {slideIndex7 = 1}
+  if (n < 1) {slideIndex7 = slides7.length}
+  for (i = 0; i < slides7.length; i++) {
+    slides7[i].style.display = "none";
+  }
+  slides7[slideIndex7-1].style.display = "block";
+}
