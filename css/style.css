@@ -447,6 +447,18 @@ ul {
   background-position: 5px 5px;
   background-repeat: no-repeat;
 }
+.project-demo {
+  border: 1px solid lightblue;
+  background: whitesmoke url(../images/youtube.png);
+  border-radius: 5px;
+  width: 235px;
+  height: 38px;
+  padding: 2px 5px 5px 35px;
+  display:inline-block;
+  text-align: center;
+  background-position: 5px 5px;
+  background-repeat: no-repeat;
+}
 .project-link:hover {
   border: 2px solid navy
 }
